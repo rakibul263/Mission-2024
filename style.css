@@ -1,0 +1,37 @@
+body {
+  margin: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.heading{
+    padding-left: 10px;
+    margin-top: 120px;
+    border-left: 5px solid;
+    border-image: linear-gradient(red, orange) 1;
+}
+p{
+    font-size: 18px;
+    margin: 50px 0 40px;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(red, orange);
+    padding: 10px 15px;
+    font-weight: 400px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 10%;
+}
+.half-width img{
+    width: 70%;
+    margin-top: 70px;
+}
+.top-section{
+    display: flex;
+}
