@@ -37,6 +37,8 @@ p{
 }
 .my-mission{
     margin-bottom: 100px;
+    margin-left:100px ;
+    margin-right: 100px ;
 }
 .item{
     width: 25%;
@@ -59,4 +61,54 @@ p{
 .item h2{
     font-size: 30px;
     font-weight: 200;
+}
+.section-03{
+    display: flex;
+}
+.half-width p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.develop{
+    margin-left: 0;
+    margin-top: 5%;
+}
+.develop-banner {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin-bottom: 100px;
+}
+.section-04{
+    display: flex;
+}
+.s4{
+    margin-left:100px ;
+    margin-right:100px;
+}
+.community-banner{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px;
+    margin-bottom: 80px;
+    background-origin: content-box;
+}
+.corona-banner{
+    background-image: url(images/shapes/shape-4.png);
+}
+.bg-01{
+    background-image: url(images/shapes/shape-5.png), url(images/shapes/shape-6.png), url(images/shapes/shape-7.png) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right bottom, left, right top;
+    background-size: 200px;
+    margin-bottom: 80px;
+    background-origin: content-box;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
 }
